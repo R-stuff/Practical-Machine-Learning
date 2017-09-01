@@ -349,42 +349,42 @@ confusionMatrix(modFit_pred, validation$classe)</code></pre>
 ## 
 ##           Reference
 ## Prediction    A    B    C    D    E
-##          A 2223    4    0    0    0
-##          B    3 1508    7    0    1
-##          C    4    6 1357   21    2
-##          D    2    0    4 1264    0
-##          E    0    0    0    1 1439
+##          A 2227   14    0    0    0
+##          B    4 1494   14    0    0
+##          C    1   10 1349   24    0
+##          D    0    0    5 1262    1
+##          E    0    0    0    0 1441
 ## 
 ## Overall Statistics
 ##                                           
-##                Accuracy : 0.993           
-##                  95% CI : (0.9909, 0.9947)
+##                Accuracy : 0.9907          
+##                  95% CI : (0.9883, 0.9927)
 ##     No Information Rate : 0.2845          
 ##     P-Value [Acc &gt; NIR] : &lt; 2.2e-16       
 ##                                           
-##                   Kappa : 0.9911          
+##                   Kappa : 0.9882          
 ##  Mcnemar's Test P-Value : NA              
 ## 
 ## Statistics by Class:
 ## 
 ##                      Class: A Class: B Class: C Class: D Class: E
-## Sensitivity            0.9960   0.9934   0.9920   0.9829   0.9979
-## Specificity            0.9993   0.9983   0.9949   0.9991   0.9998
-## Pos Pred Value         0.9982   0.9928   0.9763   0.9953   0.9993
-## Neg Pred Value         0.9984   0.9984   0.9983   0.9967   0.9995
+## Sensitivity            0.9978   0.9842   0.9861   0.9813   0.9993
+## Specificity            0.9975   0.9972   0.9946   0.9991   1.0000
+## Pos Pred Value         0.9938   0.9881   0.9747   0.9953   1.0000
+## Neg Pred Value         0.9991   0.9962   0.9971   0.9964   0.9998
 ## Prevalence             0.2845   0.1935   0.1744   0.1639   0.1838
-## Detection Rate         0.2833   0.1922   0.1730   0.1611   0.1834
-## Detection Prevalence   0.2838   0.1936   0.1772   0.1619   0.1835
-## Balanced Accuracy      0.9976   0.9958   0.9934   0.9910   0.9989</code></pre>
+## Detection Rate         0.2838   0.1904   0.1719   0.1608   0.1837
+## Detection Prevalence   0.2856   0.1927   0.1764   0.1616   0.1837
+## Balanced Accuracy      0.9976   0.9907   0.9904   0.9902   0.9997</code></pre>
 <pre class="r"><code>confusionMatrix(modFit_pred, validation$classe)$overall[1]</code></pre>
 <pre><code>##  Accuracy 
-## 0.9929901</code></pre>
+## 0.9906959</code></pre>
 </div>
 </div>
 <div id="concluision" class="section level2">
 <h2>Concluision</h2>
-<div id="from-the-above-results-we-can-see-that-an-accuracy-of-99.39-is-obtained-with-the-out-of-sample-error-of-0.61.-with-this-amount-of-accuracy-it-is-safe-to-say-that-we-can-progress-towards-the-final-prediction" class="section level4">
-<h4>From the above results we can see that an accuracy of 99.39% is obtained with the out of sample error of 0.61%. With this amount of accuracy it is safe to say that we can progress towards the final prediction</h4>
+<div id="from-the-above-results-we-can-see-that-an-accuracy-of-99.39-is-obtained-with-the-out-of-sample-error-of-0.61.-an-accuracy-of-80-is-usually-considered-optimum-and-hence-we-must-understand-that-these-results-seem-too-optimistic-and-thus-should-also-be-tested-and-validated-on-another-set-of-data-for-confirming-our-results.-since-at-this-point-we-do-not-have-any-other-data-we-can-proceed-to-the-final-predictions." class="section level4">
+<h4>From the above results we can see that an accuracy of 99.39% is obtained with the out of sample error of 0.61%. An accuracy of 80% is usually considered optimum and hence we must understand that these results seem too optimistic and thus should also be tested and validated on another set of data for confirming our results. Since at this point we do not have any other data, we can proceed to the final predictions.</h4>
 </div>
 </div>
 <div id="final-prediction" class="section level2">
