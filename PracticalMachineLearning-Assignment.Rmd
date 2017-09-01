@@ -80,9 +80,9 @@ confusionMatrix(modFit_pred, validation$classe)$overall[1]
 
 
 
-##Final Prediction
+## Final Prediction
 
-####We can do the final prediction of the 'Classe' variable in the initial given testing dataset and test the results in the quiz section.
+#### We can do the final prediction of the 'Classe' variable in the initial given testing dataset and test the results in the quiz section.
 
 ```{r}
 predict(modFit, pml_testing_mod)
