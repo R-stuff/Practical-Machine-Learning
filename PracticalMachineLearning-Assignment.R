@@ -60,7 +60,7 @@ confusionMatrix(modFit_pred, validation$classe)$overall[1]
 
 ## Concluision
 
-#### From the above results we can see that an accuracy of 99.39% is obtained with the out of sample error of 0.61%. An accuracy of 80% is usually considered optimum and hence we must understand that these results seem too optimistic and thus should also be tested and validated on another set of data for confirming our results. Since at this point we do not have any other data, we can proceed to the final predictions.
+#### From the above results we can see that an accuracy of 99.06% is obtained with the out of sample error of 0.94%. An accuracy of 80% is usually considered optimum and hence we must understand that these results seem too optimistic and thus should also be tested and validated on another set of data for confirming our results. Since at this point we do not have any other data, we can proceed to the final predictions.
 
 ## Final Prediction
 
